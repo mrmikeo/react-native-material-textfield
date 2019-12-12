@@ -197,7 +197,7 @@ export default class TextField extends PureComponent {
     this.mounted = true;
   }
 
-  componentWillUnmount() {
+  UNSAFE_componentWillUnmount() {
     this.mounted = false;
   }
 
